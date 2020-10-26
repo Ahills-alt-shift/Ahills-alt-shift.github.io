@@ -2,13 +2,18 @@ body {background:#F2E0C9;
 font-family:Arial, Helvetica, sans-serif;
 }
 
+.assignments{
+    display: flex;
+    flex-wrap:wrap;
+}
+
 .assignment {
-    display:flex;
+    width:21%;
     padding:10px;
-    margin:10px;
+    margin:10px; 
     margin-bottom:30px;
     background: #BF8339;
-    border-radius:5px
+    border-radius:5px;
     box-shadow: 5px 8px #401201;
 }
 
@@ -16,7 +21,9 @@ font-family:Arial, Helvetica, sans-serif;
     width:200px;
     border:2px solid #8C4D3F;
     margin-right:20px;
-    border-radius:5px
+    border-radius:5px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
